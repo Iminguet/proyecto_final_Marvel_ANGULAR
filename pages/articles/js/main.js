@@ -3,7 +3,7 @@
 const marvelApi = {
   showMethod: () => {
     const url =
-      'https://gateway.marvel.com:443/v1/public/characters?&ts=5&apikey=3cf2caefb545a81ca97caaadf3d94029&hash=971422defcb3d60f08c8be54e5a0f13f&limit=12&offset=666';
+      'https://gateway.marvel.com:443/v1/public/characters?&ts=5&apikey=3cf2caefb545a81ca97caaadf3d94029&hash=971422defcb3d60f08c8be54e5a0f13f&limit=12&offset=500';
 
     const container = document.getElementById('main-mainContainer');
     let htmlContainer = '';
